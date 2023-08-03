@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Exercice des listes déroulantes</h1>
+    </header>
+
+    <div id="mySelect" class="container">
+
+        <div  class="container-qs">
+            <h2>Question n°1</h2>
+            <label for="">Pour définir un titre dans une page HTML, on utilise L'élément :</label>
+            <select name="title" >
+                <option value="" >--- Choisir une réponse ---</option>
+                <option class="select" value="0">Title</option>
+                <option class="select" value="0">Head</option>
+                <option class="select" value="1">H1, H2, ... H6</option>
+                <option class="select" value="0">P</option>
+                
+            </select>
+        </div>
+            
+        <div class="container-qs">
+            <h2>Question n°2</h2>
+            <label for="">Pour indiquer qu'un contenu est très important, on utilise l'élément :</label>
+            <select  name="contenu" >
+                <option value="">--- Choisir une réponse ---</option>
+                <option class="select" value="1">Strong</option>
+                <option class="select" value="0">Em</option>
+                <option class="select" value="0">Mark</option>
+                <option class="select" value="0">A</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°3</h2>
+            <label for="">L'élément form doit obligatoirement être accompagné...</label>
+            <select  name="form" >
+                <option  value="">--- Choisir une réponse ---</option>
+                <option class="select" value="0">D'un attribut method</option>
+                <option class="select" value="0">D'un attribut action</option>
+                <option class="select" value="1">De deux attributs method et action</option>
+                <option class="select" value="0">De troix attributs</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°4</h2>
+            <label for="propriété">Laquelle des propriétés suivantes définit l'espacement entre les lettres?</label>
+            <select name="" >
+                <option value="">--- Choisir une réponse ---</option>
+                <option class="select" value="0">Space</option>
+                <option class="select" value="0">Line-height</option>
+                <option class="select" value="1">Letter-spacing</option>
+                <option class="select" value="0">Aucune de ces réponses n'est vraie.</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°5</h2>
+            <label for="bckg-color">En JavaScript, comment modifier la couleur de fond de l'élément HTML initialisé par elem = document.getElementById("myElement") ?</label>
+            <select  name="bckg-color" >
+                <option  value="">--- Choisir une réponse ---</option>
+                <option class="select" value="0">elem.style.background-color="blue" ;</option>
+                <option class="select" value="0">elem.backgroundColor="blue" ;</option>
+                <option class="select" value="0">elem.background-color="blue" ;</option>
+                <option class="select" value="1">elem.style.backgroundColor="blue" ;</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°6</h2>
+            <label for="code">Qu'affiche le code isNaN("20") ; ?</label>
+            <select  name="code" >
+                <option  value="">--- Choisir une réponse ---</option>
+                <option class="select" value="0">False</option>
+                <option class="select" value="1">True</option>
+                <option class="select" value="0">"20"</option>
+                <option class="select" value="0">20</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°7</h2>
+            <label for="event">Parmi ces événements, quel est l'intrus ?</label>
+            <select  name="event" >
+                <option  value="">--- Choisir une réponse ---</option>
+                <option class="select" value="0">Click</option>
+                <option class="select" value="1">Load</option>
+                <option class="select" value="0">Focus</option>
+                <option class="select" value="0">Change</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°8</h2>
+            <label for="char">Laquelle des fonctions suivantes de l'objet Number renvoie une chaîne de caractère du nombre actuel?</label>
+            <select  name="char" >
+                <option value="">--- Choisir une réponse ---</option>
+                <option class="select" value="1">toString()</option>
+                <option class="select" value="0">toFixed()</option>
+                <option class="select" value="0">toLocaleString()</option>
+                <option class="select" value="0">toPrecision()</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°9</h2>
+            <label for="valeur">Quelle déclaration fournit la valeur d'une fonction?</label>
+            <select  name="valeur" >
+                <option  value="">--- Choisir une réponse ---</option>
+                <option class="select" value="1">return</option>
+                <option class="select" value="0">cancel</option>
+                <option class="select" value="0">continue</option>
+                <option class="select" value="0">valueOf</option>
+            </select>
+        </div>
+
+        <div class="container-qs">
+            <h2>Question n°10</h2>
+            <label for="objet">Quelle propriété est orienté objet?</label>
+            <select  name="objet" >
+                <option  value="">--- Choisir une réponse ---</option>
+                <option class="select" value="1">une fonction</option>
+                <option class="select" value="0">une déclaration if</option>
+                <option class="select" value="0">une variable</option>
+                <option class="select" value="0">un mot réservé</option>
+            </select>
+        </div>
+           
+        <div class="buttons">
+
+            <input type="submit" value="Valider" id="check-answers" >
+            <input type="submit" value="Reset" id="reset-answers" >
+
+        </div> 
+        
+    </div>
+
+    
+
+    <footer>
+        <p>copyright khadidja</p>
+    </footer>
+</body>
+
+    <script src="public/js/script.js"></script>
+
+</html>
